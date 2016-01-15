@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="slider.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<script>
+			var _rnd = new Slider.RND();
+
+			var _slider = new Slider();
+			_slider.setRandom(_rnd);
+			_slider.setSize(5, 7);
+			_slider.setStartPoint(0, 0);
+			_slider.setEndPoint(4, 6);
+			_slider.generate(2);
+		</script>
+	</body>
+</html>
